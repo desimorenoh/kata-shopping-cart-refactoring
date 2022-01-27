@@ -9,7 +9,9 @@ public class StoreApplication {
             new Product(1,"Mario Kart 64", 12.30, true),
             new Product(2,"Rust", 0.0, false),
             new Product(3,"Medieval 2 Total War", 30.0, false),
-            new Product(4, "Call Of Duty: Black Ops 2", 19.99, false)
+            new Product(4, "Call Of Duty: Black Ops 2", 19.99, false),
+            new Product(5, "The Sims", 9.99, false),
+            new Product(6, "Sim City 4", 8.30, false)
     );
 
     private final ShoppingCart shoppingCart;

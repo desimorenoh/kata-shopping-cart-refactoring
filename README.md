@@ -3,6 +3,11 @@
 Os acaban de contratar para continuar el desarrollo de la aplicación de caja de Legacy Games. La desarrolladora anterior se
 ha ido a las Bahamas y os ha dejado a cargo de su _legacy code_.
 
+### Requisitos técnicos
+
+Esta aplicación está desarrollada con Java 16. Es posible que funcione con versiones anteriores de Java, pero tendrás que probar con cada una, ya que el
+código contiene algunas características que pueden no ser compatibles con versiones más antiguas.
+
 
 ### Cómo trabajar con Legacy Code
 
@@ -11,7 +16,7 @@ ha sido escrito por otras personas (o por nosotras hace tiempo), y tiene la cara
 
 Para poder realizar cambios en una base de código legado, primero tenemos que escribir tests que nos aseguren que no nos cargamos nada.
 
-#### Truco:
+#### Cómo empezar:
 
 - Antes de ponernos a cambiar cosas, examina las clases que existen y analiza la forma en que está escrito el código
 - Escribe tests para las clases más "pequeñas" (`Product`, `ShoppingCart`) que te permitan simplificar el código. Por ejemplo, haz que sea la clase `Product` quien calcule el precio final del producto (tenga descuento o no).
@@ -33,3 +38,4 @@ Para poder realizar cambios en una base de código legado, primero tenemos que e
      Algunos de estos juegos pueden incluir contenido violento para mayores de 18 años. Legacy Games no se hace
         cargo de su uso y disfrute por parte de personas pequeñas. 
   ```
+  Tendréis que añadir el campo correspondiente a la clase `Product` para clasificar un juego como violento o no
