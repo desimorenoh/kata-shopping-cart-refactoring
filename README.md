@@ -39,3 +39,30 @@ Para poder realizar cambios en una base de código legado, primero tenemos que e
         cargo de su uso y disfrute por parte de personas pequeñas. 
   ```
   Tendréis que añadir el campo correspondiente a la clase `Product` para clasificar un juego como violento o no
+- Tiquet simplificado: si compramos varias unidades del mismo producto, queremos agruparlas. Por ejemplo, en lugar de mostrar el siguiente ticket:
+  ```
+    Articulo   |     Precio
+    -----------------------
+    1x (0) Call Of Duty Modern Warfare - 19.27
+    1x (0) Call Of Duty Modern Warfare - 19.27
+    1x (4) Call Of Duty: Black Ops 2 - 19.99
+    TOTAL: 58.53
+  ```
+  deberíamos agrupar los productos y mostrar las cantidades agregadas
+  ```
+    Articulo   |     Precio
+    -----------------------
+    2x (0) Call Of Duty Modern Warfare - 19.27
+    1x (4) Call Of Duty: Black Ops 2 - 19.99
+    TOTAL: 58.53
+  ```
+  
+  En el caso de existir una oferta 2x1, debe indicarse al final del ticket:
+  ```
+    Articulo   |     Precio
+    -----------------------
+    2x (0) Call Of Duty Modern Warfare - 19.27
+    1x (4) Call Of Duty: Black Ops 2 - 19.99
+    1x Descuento 2x1:  -19.27
+    TOTAL: 39.26
+  ```
