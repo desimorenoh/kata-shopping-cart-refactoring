@@ -5,9 +5,7 @@ ha ido a las Bahamas y os ha dejado a cargo de su _legacy code_.
 
 ### Requisitos técnicos
 
-Esta aplicación está desarrollada con Java 16. Es posible que funcione con versiones anteriores de Java, pero tendrás que probar con cada una, ya que el
-código contiene algunas características que pueden no ser compatibles con versiones más antiguas.
-
+Esta [aplicación](https://github.com/FactoriaF5Code/bftp2-katas-08-shopping-cart-refactoring) inicialmente está desarrollada con Java 16. Pero la he migrado a Koltin 1.7.10
 
 ### Cómo trabajar con Legacy Code
 
